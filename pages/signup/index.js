@@ -1,4 +1,4 @@
-//sign up
+/*
 var app = getApp();
 Page({
    data: {
@@ -8,7 +8,7 @@ Page({
       isShow: false,
    }
 })
-
+*/
 function signup() {
    return <div>signup</div>
 }
