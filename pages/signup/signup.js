@@ -9,6 +9,8 @@ Page({
    }
 })
 
-export default function handler(req, res) {
-   res.status(200).json({ name: 'John Doe' })
+function signup() {
+   return <div>signup</div>
 }
+
+export default signup
