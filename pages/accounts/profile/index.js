@@ -1,7 +1,7 @@
-export default function Mypage() {
+export default function wallet() {
    return (
       <>
-         <h1>MyPage</h1>
+         <h1>wallet</h1>
          <h2>test</h2>
       </>
    )

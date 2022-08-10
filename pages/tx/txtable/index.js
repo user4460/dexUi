@@ -1,7 +1,7 @@
-export default function tx() {
+export default function txtable() {
    return (
       <>
-         <h1>tx</h1>
+         <h1>txtable</h1>
          <h2>test</h2>
       </>
    )

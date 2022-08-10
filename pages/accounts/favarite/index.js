@@ -1,7 +1,7 @@
-export default function Mypage() {
+export default function favarite() {
    return (
       <>
-         <h1>MyPage</h1>
+         <h1>favarite</h1>
          <h2>test</h2>
       </>
    )
