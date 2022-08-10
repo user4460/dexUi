@@ -1,15 +1,4 @@
-/*
-var app = getApp();
-Page({
-   data: {
-      userInfo: {},
-      hasUserInfo: false,
-      canIUse: wx.canIUse('button.open-type.getUserInfo'),
-      isShow: false,
-   }
-})
-*/
-
+//課題アプリ　ログアウト　サインアップ
 // firebase.auth().createUserWithEmailAndPassword()
 // firebase.firestore().collection('users').doc(user.uid).set({ name: "hoge" })
 
