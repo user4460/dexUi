@@ -30,7 +30,7 @@ import {
 } from "firebase/auth";
 import { auth } from "./FirebaseConfig.js";
 /* 「Link」をimport↓ */
-imoprt { Navigate, Link } from "react-router-dom";
+import { Navigate, Link } from "react-router-dom";
 
 const Login = () => {
    const [loginEmail, setLoginEmail] = useState("");
