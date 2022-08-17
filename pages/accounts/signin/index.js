@@ -10,7 +10,7 @@ signInWithEmailAndPassword(auth, email, password)
 
 //課題メルアドユーザ確認承認
 firebase.auth().currentUser.sendEmailVerification()
-
+*/
 export default function SignIn() {
    return (
       <>
