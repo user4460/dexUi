@@ -25,10 +25,10 @@ export default function SignIn() {
 
 import React, { useState, useEffect } from "react";
 import {
-   signInWithEmailAndPassword,
+  // signInWithEmailAndPassword,
    onAuthStateChanged
 } from "firebase/auth";
-import { auth } from "./FirebaseConfig.js";
+//import { auth } from "./FirebaseConfig.js";
 /* 「Link」をimport↓ */
 import { Navigate, Link } from "react-router-dom";
 
@@ -94,4 +94,6 @@ const Login = () => {
    );
 };
 
+
 //export default Login;
+
