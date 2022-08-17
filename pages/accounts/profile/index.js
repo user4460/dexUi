@@ -7,13 +7,11 @@ export default function wallet() {
    )
 }
 
-onAuthStateChanged
-
 /* Mypage.js（完成版） e421 */
 
 import React, { useState, useEffect } from "react";
-import { onAuthStateChenged, signOut } from "firebase/auth";
-import { auth } from "./FirebaseConfig.js";
+//import { onAuthStateChenged, signOut } from "firebase/auth";
+/*import { auth } from "./FirebaseConfig.js";
 import {
    useNavigate,
    Navigate
@@ -57,4 +55,6 @@ const Mypage = () => {
    );
 };
 
-//export default Mypage;
+export default Mypage;
+
+*/

@@ -1,7 +1,7 @@
 //課題パスワード変更
-firebase.auth().currentUser.updatePassword(newPassword)
+//firebase.auth().currentUser.updatePassword(newPassword)
 
-export default function SignIn() {
+export default function Password() {
    return (
       <>
          <h1>SignIn</h1>

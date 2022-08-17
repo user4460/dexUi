@@ -1,4 +1,4 @@
-//課題アプリログインv9
+/*課題アプリログインv9
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 const auth = getAuth();
 signInWithEmailAndPassword(auth, email, password)
@@ -23,14 +23,12 @@ export default function SignIn() {
 // e421
 /* Login.js（完成版） */
 
-import React, { useState, useEffect } from "react";
-import {
-  // signInWithEmailAndPassword,
-   onAuthStateChanged
-} from "firebase/auth";
+//import React, { useState, useEffect } from "react";
+//import {
+  // signInWithEmailAndPassword,onAuthStateChanged} from "firebase/auth";
 //import { auth } from "./FirebaseConfig.js";
 /* 「Link」をimport↓ */
-import { Navigate, Link } from "react-router-dom";
+/* import { Navigate, Link } from "react-router-dom";
 
 const Login = () => {
    const [loginEmail, setLoginEmail] = useState("");
@@ -85,8 +83,8 @@ const Login = () => {
                      />
                   </div>
                   <button>ログイン</button>
-                  {/* ↓リンクを追加 */}
-                  <p>新規登録は<Link to={`/register/`}>こちら</Link></p>
+                  {/* ↓リンクを追加 */
+{/*<p>新規登録は<Link to={`/register/`}>こちら</Link></p>
                </form>
             </>
          )}
@@ -95,5 +93,5 @@ const Login = () => {
 };
 
 
-//export default Login;
+export default Login; */}
 

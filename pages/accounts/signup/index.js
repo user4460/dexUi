@@ -8,7 +8,7 @@ function signup() {
 
 export default signup
 
-/* Register.js */
+/* Register.js 
 //https://ralacode.com/blog/post/react-firebase-authentication/ e421
 import React, { useState, useEffect } from "react";
 import {
@@ -16,7 +16,7 @@ import {
    onAuthStateChanged
 } from "firebase/auth";
 import { auth } from "./FirebaseConfig.js";
-/* 「Link」をimport↓ */
+/* 「Link」をimport↓ 
 import { Navigate, Link } from "react-router-dom";
 
 const Register = () => {
@@ -72,7 +72,7 @@ const Register = () => {
                      />
                   </div>
                   <button>登録する</button>
-                  {/* ↓リンクを追加 */}
+                  {/* ↓リンクを追加 
                   <p>ログインは<Link to={`/login/`}>こちら</Link></p>
                </form>
             </>
@@ -80,5 +80,5 @@ const Register = () => {
       </>
    );
 };
-
+*/
 //export default Register;
