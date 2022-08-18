@@ -1,10 +1,19 @@
 import { Input, Button, Link } from '@chakra-ui/react'
+import {
+   FormControl,
+   FormLabel,
+   FormErrorMessage,
+   FormHelperText,
+} from '@chakra-ui/react'
 
 export default function signup() {
    return (
       <>
-         <p>mail</p>
-         <Input placeholder='Basic usage' />
+         <FormControl>
+            <FormLabel>Email address</FormLabel>
+            <Input type='email' />
+            <FormHelperText>We will never share your email.</FormHelperText>
+         </FormControl>
          <p>username</p>
          <Input placeholder='Basic usage' />
          <p>password</p>

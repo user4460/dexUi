@@ -1,4 +1,10 @@
 import { Input, InputGroup, InputRightElement, Button,Link } from '@chakra-ui/react'
+import {
+   FormControl,
+   FormLabel,
+   FormErrorMessage,
+   FormHelperText,
+} from '@chakra-ui/react'
 
 import React from 'react'
 
@@ -8,7 +14,11 @@ export default function SignIn() {
 
    return (
       <>
-         <Input placeholder='mail' />
+         <FormControl>
+            <FormLabel>Email address</FormLabel>
+            <Input type='email' />
+            <FormHelperText>We will never share your email.</FormHelperText>
+         </FormControl>
 
          <InputGroup size='md'>
             <Input
