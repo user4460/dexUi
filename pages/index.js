@@ -1,3 +1,5 @@
+// https://localbitcoins.com/ のトップページを参考に作成
+
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 //単独

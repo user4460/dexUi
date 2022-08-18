@@ -1,3 +1,18 @@
+import { Input ,Button,Link } from '@chakra-ui/react'
+
+export default function SignIn() {
+   return (
+      <>
+         <Input placeholder='mail' />
+         <Input placeholder='password' />
+         <Button colorScheme='blue'>login</Button><br></br>
+
+         <Link >password reset</Link><br></br>
+         <Link >signup</Link>
+      </>
+   )
+}
+
 /*課題アプリログインv9
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 const auth = getAuth();
@@ -11,14 +26,6 @@ signInWithEmailAndPassword(auth, email, password)
 //課題メルアドユーザ確認承認
 firebase.auth().currentUser.sendEmailVerification()
 */
-export default function SignIn() {
-   return (
-      <>
-         <h1>SignIn</h1>
-         <h2>test</h2>
-      </>
-   )
-}
 
 // e421
 /* Login.js（完成版） */

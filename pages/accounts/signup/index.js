@@ -1,14 +1,24 @@
+import { Input, Button, Link } from '@chakra-ui/react'
+
+export default function signup() {
+   return (
+      <>
+         <p>mail</p>
+         <Input placeholder='Basic usage' />
+         <p>username</p>
+         <Input placeholder='Basic usage' />
+         <p>password</p>
+         <Input placeholder='Basic usage' />
+      </>
+   )
+}
+
+
 //課題アプリ　ログアウト　サインアップ
 // firebase.auth().createUserWithEmailAndPassword()
 // firebase.firestore().collection('users').doc(user.uid).set({ name: "hoge" })
 
-function signup() {
-   return <div>signup</div>
-}
-
-export default signup
-
-/* Register.js 
+/* Register.js
 //https://ralacode.com/blog/post/react-firebase-authentication/ e421
 import React, { useState, useEffect } from "react";
 import {
@@ -16,7 +26,7 @@ import {
    onAuthStateChanged
 } from "firebase/auth";
 import { auth } from "./FirebaseConfig.js";
-/* 「Link」をimport↓ 
+/* 「Link」をimport↓
 import { Navigate, Link } from "react-router-dom";
 
 const Register = () => {
@@ -72,7 +82,7 @@ const Register = () => {
                      />
                   </div>
                   <button>登録する</button>
-                  {/* ↓リンクを追加 
+                  {/* ↓リンクを追加
                   <p>ログインは<Link to={`/login/`}>こちら</Link></p>
                </form>
             </>
