@@ -16,14 +16,31 @@ export default function Wallet() {
       <>
          <Tabs>
             <TabList>
-               <Tab>One</Tab>
-               <Tab>Two</Tab>
-               <Tab>Three</Tab>
+               <Tab>Sends</Tab>
+               <Tab>Receive</Tab>
+               <Tab>Transaction history</Tab>
             </TabList>
 
             <TabPanels>
                <TabPanel>
-                  <p>one!</p>
+
+                  <p>Amount to send</p>
+                  <NumberInput>
+                     <NumberInputField />
+                     <NumberInputStepper>
+                        <NumberIncrementStepper />
+                        <NumberDecrementStepper />
+                     </NumberInputStepper>
+                  </NumberInput>
+
+                  <p>Receiving address</p>
+                  <Input placeholder='Basic usage' />
+
+                  <p>Description</p>
+                  <Textarea placeholder='Here is a sample placeholder' />
+
+                  <Button variantColor='teal' mt={4}> Send </Button>
+
                </TabPanel>
                <TabPanel>
                   <p>two!</p>
@@ -34,22 +51,6 @@ export default function Wallet() {
             </TabPanels>
          </Tabs>
 
-         <p>Amount to send</p>
-         <NumberInput>
-            <NumberInputField />
-            <NumberInputStepper>
-               <NumberIncrementStepper />
-               <NumberDecrementStepper />
-            </NumberInputStepper>
-         </NumberInput>
-
-         <p>Receiving address</p>
-         <Input placeholder='Basic usage' />
-
-         <p>Description</p>
-         <Textarea placeholder='Here is a sample placeholder' />
-
-         
       </>
    )
 }
