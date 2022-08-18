@@ -1,8 +1,24 @@
+import {
+   List,
+   ListItem,
+   ListIcon,
+   OrderedList,
+   UnorderedList,
+} from '@chakra-ui/react'
+
 export default function wallet() {
    return (
       <>
-         <h1>wallet</h1>
-         <h2>test</h2>
+         <UnorderedList>
+            <ListItem>Lorem ipsum dolor sit amet</ListItem>
+            <ListItem>Consectetur adipiscing elit</ListItem>
+            <ListItem>Integer molestie lorem at massa</ListItem>
+            <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+            <ListItem>Lorem ipsum dolor sit amet</ListItem>
+            <ListItem>Consectetur adipiscing elit</ListItem>
+            <ListItem>Integer molestie lorem at massa</ListItem>
+            <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+         </UnorderedList>
       </>
    )
 }
