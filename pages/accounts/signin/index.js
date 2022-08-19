@@ -45,11 +45,6 @@ export default function SignIn() {
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 const auth = getAuth();
 signInWithEmailAndPassword(auth, email, password)
-   //コパイロット.then
-   .then(() => {
-      // Sign in successful.
-
-   })
 
 //課題メルアドユーザ確認承認
 firebase.auth().currentUser.sendEmailVerification()
