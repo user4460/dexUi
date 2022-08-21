@@ -1,6 +1,6 @@
-import { Checkbox, Stack, Input, Select, Textarea } from "@chakra-ui/react"
+import { Checkbox, Stack, Input, Select, Textarea, Text } from "@chakra-ui/react"
 import { useState } from "react"
-import { React  } from "react"
+import { React } from "react"
 
 import {
    NumberInput,
@@ -18,6 +18,21 @@ export default function create() {
 
    return (
       <>
+         
+         <Text noOfLines={1}>
+            Advertisement rules and requirements
+         </Text>
+         <Text noOfLines={[1, 2, 3]}>
+            For your ads to display you need to have Bitcoins in your LocalBitcoins wallet.
+            The advertiser pays the service fee. The user who posts an ad is charged 1% of the total trade volume for each completed trade.
+            Once a trade is opened the price is final, except when there is a clear mistake in the pricing.
+            You are not allowed to buy or sell Bitcoin on behalf of someone else (brokering).
+            You may only send and receive payment using accounts that are registered in your own name. Third party payments are not allowed.
+            You must provide your payment details in the advertisement or in the trade chat.
+            All communication must happen on LocalBitcoins.com.
+            Payment methods marked High Risk have a significant risk of fraud. Be careful and always ID verify your trading partners when using high risk payment methods.
+         </Text>
+
          <Checkbox
             isChecked={allChecked}
             isIndeterminate={isIndeterminate}
