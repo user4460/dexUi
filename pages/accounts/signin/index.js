@@ -1,4 +1,5 @@
-import { Input, InputGroup, InputRightElement, Button,Link } from '@chakra-ui/react'
+//signinのページ
+import { Input, InputGroup, InputRightElement, Button, Link } from '@chakra-ui/react'
 import {
    FormControl,
    FormLabel,
@@ -12,8 +13,10 @@ export default function SignIn() {
    const [show, setShow] = React.useState(false)
    const handleClick = () => setShow(!show)
 
+
    return (
       <>
+         {/* */}
          <FormControl>
             <FormLabel>Email address</FormLabel>
             <Input type='email' />

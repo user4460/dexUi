@@ -1,3 +1,5 @@
+//取引を作成する、ページ、広告なども、
+//掲示板機能のオファーみたいなもの
 import { Checkbox, Stack, Input, Select, Textarea, Text } from "@chakra-ui/react"
 import { useState } from "react"
 import { React } from "react"

@@ -1,3 +1,5 @@
+//walletのページ、コインの残高等
+
 import { Input, Button, Link, Textarea } from '@chakra-ui/react'
 
 //tab
