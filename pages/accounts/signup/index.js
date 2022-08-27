@@ -1,3 +1,5 @@
+//signupのfirebaseを行う
+
 import { Input, Button, Link } from '@chakra-ui/react'
 import {
    FormControl,

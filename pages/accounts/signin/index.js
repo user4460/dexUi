@@ -1,4 +1,6 @@
 //signinのページ
+//signinnのfirebaseの認証を行う
+
 import { Input, InputGroup, InputRightElement, Button, Link } from '@chakra-ui/react'
 import {
    FormControl,
