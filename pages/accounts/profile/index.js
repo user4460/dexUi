@@ -1,4 +1,4 @@
-//signoutを作成する
+//signoutをnextjsの認証を作成する
 
 import {
    List,

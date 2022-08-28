@@ -1,4 +1,4 @@
-//signupのfirebaseを行う
+//signupのfirebase,nextjsを行う
 
 import { Input, Button, Link } from '@chakra-ui/react'
 import {

@@ -1,4 +1,5 @@
-//課題パスワード変更
+//パスワード変更
+//nextjsの認証を行う
 //firebase.auth().currentUser.updatePassword(newPassword)
 
 export default function Password() {
