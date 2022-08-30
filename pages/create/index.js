@@ -2,6 +2,7 @@
 //掲示板機能のオファーみたいなもの
 //loginした人だけのバリデートを入れる
 //
+
 import { Checkbox, Stack, Input, Select, Textarea, Text } from "@chakra-ui/react"
 import { useState } from "react"
 import { React } from "react"
