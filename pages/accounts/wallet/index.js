@@ -1,4 +1,7 @@
 //walletのページ、コインの残高等
+//ウォレットの残高をデータベースに保存するので、
+//結局apiで取得は必要になる、ethereumのノードからデータを
+//スマートコントラクトは描かなくていいが
 
 import { Input, Button, Link, Textarea } from '@chakra-ui/react'
 
