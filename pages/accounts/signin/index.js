@@ -14,8 +14,8 @@ import React from 'react'
 
 export default function SignIn() {
    const [show, setShow] = React.useState(false)
-   const handleClick = () => setShow(!show)
 
+   const handleClick = () => setShow(!show)
 
    return (
       <>
