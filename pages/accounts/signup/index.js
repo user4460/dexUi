@@ -1,6 +1,6 @@
 //signupのfirebase,nextjsを行う
 //nestjs
-
+//nextjsのauthでもいい
 import { Input, Button, Link } from '@chakra-ui/react'
 import {
    FormControl,
