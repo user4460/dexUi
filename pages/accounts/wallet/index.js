@@ -2,6 +2,8 @@
 //ウォレットの残高をデータベースに保存するので、
 //結局apiで取得は必要になる、ethereumのノードからデータを
 //スマートコントラクトは描かなくていいが
+//webウォレットと同じ形、blockchain.comと同様
+//ethersJsを使う形になる
 
 import { Input, Button, Link, Textarea } from '@chakra-ui/react'
 
