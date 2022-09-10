@@ -4,7 +4,7 @@
 //スマートコントラクトは描かなくていいが
 //webウォレットと同じ形、blockchain.comと同様
 //ethersJsを使う形になる
-
+//ウォレットは自分で作る
 import { Input, Button, Link, Textarea } from '@chakra-ui/react'
 
 //tab
