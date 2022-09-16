@@ -1,7 +1,7 @@
 //取引を作成する、ページ、広告なども、
 //掲示板機能のオファーみたいなもの
 //loginした人だけのバリデートを入れる
-//
+//技術スタックも記載する
 
 import { Checkbox, Stack, Input, Select, Textarea, Text } from "@chakra-ui/react"
 import { useState } from "react"
