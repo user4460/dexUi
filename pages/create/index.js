@@ -3,7 +3,7 @@
 //loginした人だけのバリデートを入れる
 //技術スタックも記載する
 //front,nextTs,back,nestPrで作る
-//reactnative検討
+//reactnative検討,expoで作る
 import { Checkbox, Stack, Input, Select, Textarea, Text } from "@chakra-ui/react"
 import { useState } from "react"
 import { React } from "react"
