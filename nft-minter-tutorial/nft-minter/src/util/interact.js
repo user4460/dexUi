@@ -1,8 +1,10 @@
 import { pinJSONToIPFS } from "./pinata.js";
 require("dotenv").config();
 const alchemyKey = process.env.REACT_APP_ALCHEMY_KEY;
+// contact-abiとは、コントラクトのABIを記述したファイル
 const contractABI = require("../contract-abi.json");
 const contractAddress = "0x4C4a07F737Bf57F6632B6CAB089B78f62385aCaE";
+//alchemyKeyは、AlchemyのAPIキー
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(alchemyKey);
 
@@ -42,6 +44,7 @@ export const connectWallet = async () => {
   }
 };
 
+//getCurrentWalletConnectedとは、現在のウォレットの接続を取得する関数
 export const getCurrentWalletConnected = async () => {
   if (window.ethereum) {
     try {
@@ -97,6 +100,7 @@ export const mintNFT = async (url, name, description) => {
   }
 
   //make metadata
+  //Object()とは、オブジェクトを作成するためのコンストラクタ
   const metadata = new Object();
   metadata.name = name;
   metadata.image = url;
