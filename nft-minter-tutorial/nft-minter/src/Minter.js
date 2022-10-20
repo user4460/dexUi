@@ -14,15 +14,18 @@ const Minter = (props) => {
   const [url, setURL] = useState("");
 
   useEffect(async () => {
+    //getCurrentWalletConnected()とは、ウォレットの接続状態を取得する関数です。
     const { address, status } = await getCurrentWalletConnected();
 
     setWallet(address);
     setStatus(status);
 
+    //ウォレットの接続状態を監視するために、ウォレットの接続状態を取得する関数を定期的に呼び出します。
     addWalletListener();
   }, []);
 
   function addWalletListener() {
+    //windowとは、ブラウザのグローバルオブジェクトです。
     if (window.ethereum) {
       window.ethereum.on("accountsChanged", (accounts) => {
         if (accounts.length > 0) {
@@ -47,12 +50,14 @@ const Minter = (props) => {
     }
   }
 
+  //connectWalletPressed()とは、ウォレットの接続ボタンが押されたときに呼び出される関数です。
   const connectWalletPressed = async () => {
     const walletResponse = await connectWallet();
     setStatus(walletResponse.status);
     setWallet(walletResponse.address);
   };
 
+  //onMintPressed()とは、NFTを発行する関数です。
   const onMintPressed = async () => {
     const { success, status } = await mintNFT(url, name, description);
     setStatus(status);
@@ -68,8 +73,10 @@ const Minter = (props) => {
       <button id="walletButton" onClick={connectWalletPressed}>
         {walletAddress.length > 0 ? (
           "Connected: " +
+          //substringとは、文字列の一部を取り出す関数です。
           String(walletAddress).substring(0, 6) +
           "..." +
+          //substringとは、文字列の一部を取り出す関数です。
           String(walletAddress).substring(38)
         ) : (
           <span>Connect Wallet</span>
@@ -101,6 +108,7 @@ const Minter = (props) => {
           onChange={(event) => setDescription(event.target.value)}
         />
       </form>
+      {/*　作成する　todoと同じ　*/}
       <button id="mintButton" onClick={onMintPressed}>
         Mint NFT
       </button>

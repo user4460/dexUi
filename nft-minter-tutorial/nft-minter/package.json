@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "comment":"ejectとは、プロジェクトの設定を隠蔽することで、プロジェクトをカスタマイズすることができる",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
